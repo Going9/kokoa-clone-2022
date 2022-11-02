@@ -1,3 +1,6 @@
 :root {
   --yellow: #fae100;
+  --horizontal: 20px;
+  --opacity-border: 1px solid rgba(0, 0, 0, 0.2);
+  --opacity-color: rgba(0, 0, 0, 0.5);
 }

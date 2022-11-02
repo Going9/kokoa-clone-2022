@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Friends - Kokoa Talk</title>
+    <title>More - Kokoa Talk</title>
   </head>
   <body>
     <div class="status-bar">
@@ -23,20 +23,20 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-la"></i></span>
         <span><i class="fa-solid fa-music fa-la"></i></span>
-        <span><i class="fa-solid fa-gear fa-la"></i></span>
+        <span>
+          <a href="setting.html">
+            <i class="fa-solid fa-gear fa-la"></i>
+            <div class="screen-header__dot red-dot"></div
+          ></a>
+        </span>
       </div>
     </header>
 
-    <a id="friends-display-link">
-      <i class="fa-solid fa-circle-info"></i>&nbsp;&nbsp;Friends'Names
-      Display&nbsp;&nbsp;
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
-    <main class="main-screen">
+    <main class="main-screen more-screen">
       <div class="user-component">
         <div class="user-component__column">
           <img
@@ -45,35 +45,59 @@
           />
           <div class="user-component__text">
             <h4 class="user-component__title">뚱개멍</h4>
-            <!--<h6 class="user-component__subtitle">not now</h6>-->
+            <h6 class="user-component__subtitle">010-8801-3141</h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <i class="fa-regular fa-envelope-open fa-2x"></i>
+        </div>
       </div>
-      <div class="firends-screen__channel">
-        <div class="firends-screen__channel-header">
-          <span>channel</span>
-          <i class="fa-solid fa-chevron-up fa-xs"></i>
+      <div class="icon-row">
+        <div class="icon-row__icons">
+          <i class="fa-regular fa-calendar"></i>
+          <span>Calendar</span>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
-            <img
-              src="https://avatars.githubusercontent.com/u/105552606?s=400&u=5fffab5cc794235b7f5bb9ff458ea2cdb49dbd47&v=4"
-              class="user-component__avatar user-component__avatar--sm"
-            />
-            <div class="user-component__text">
-              <h4
-                class="user-component__title user-component__ttitle--not-bold"
-              >
-                Channel
-              </h4>
+        <div class="icon-row__icons">
+          <i class="fa-regular fa-hard-drive"></i>
+          <span>Talk Drive</span>
+        </div>
+        <div class="icon-row__icons">
+          <i class="fa-regular fa-face-smile"></i>
+          <span>Emotions</span>
+        </div>
+        <div class="icon-row__icons">
+          <i class="fa-solid fa-brush"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icons">
+          <i class="fa-solid fa-brush"></i>
+          <span>Themes</span>
+        </div>
+        <div class="icon-row__icons">
+          <i class="fa-solid fa-brush"></i>
+          <span>Themes</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <h4 class="more-suggestions__title">Suggestions</h4>
+        <div class="more-suggestions__icons">
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-quote-right"></i>
             </div>
+            <span>Kakao Story</span>
           </div>
-          <div class="user-component__column">
-            <div>
-              <span>2</span>
-              <i class="fa-solid fa-chevron-right fa-xs"></i>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-user-group"></i>
             </div>
+            <span>Kakao Friends</span>
+          </div>
+          <div class="more-suggestions__icon">
+            <div class="more-suggestions__icon-image">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+            <span>Kakao Gem</span>
           </div>
         </div>
       </div>
@@ -83,7 +107,7 @@
       <ul class="nav-bar__list">
         <li class="nav-bar__btn">
           <a class="nav-bar__link" href="friends.html"
-            ><i class="fa-solid fa-user fa-2x"></i
+            ><i class="fa-regular fa-user fa-2x"></i
           ></a>
         </li>
         <li class="nav-bar__btn">
@@ -106,9 +130,6 @@
         </li>
       </ul>
     </nav>
-    <div id="splash_screen">
-      <i class="fa-solid fa-comment"></i>
-    </div>
 
     <script
       src="https://kit.fontawesome.com/8aece3ac6c.js"

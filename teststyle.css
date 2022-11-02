@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.item {
+  width: 32%;
+}
+
+.item {
+  height: 150px;
+  line-height: 150px;
+  background-color: rgb(62, 62, 62);
+}
+
+* {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  overflow-wrap: break-word;
+}

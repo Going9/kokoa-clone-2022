@@ -2,11 +2,29 @@
 @import "reset.css";
 @import "variable.css";
 /*components*/
+
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/red-dot.css";
+@import "components/icon-row.css";
+@import "components/alt-screen-header.css";
+
 /*screens*/
 @import "screens/login-form.css";
+@import "screens/friends.css";
+@import "screens/find.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
 
 body {
+  color: #30363e;
   font-family: "Source Sans Pro", sans-serif;
+}
+
+.main-screen {
+  padding: 0 var(--horizontal);
 }
